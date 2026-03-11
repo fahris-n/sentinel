@@ -1,0 +1,25 @@
+# Binaries & OS junk
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.DS_Store
+
+# Go specific
+vendor/
+go.sum
+*.test
+*.out
+
+# Terraform & Cloud
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.env
+auth-keys.json
+
+# Docker
+.docker-compose.env
